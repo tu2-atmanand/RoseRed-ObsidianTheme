@@ -1,10 +1,14 @@
 name: Publish new theme version
 
 on:
-  push:
+  push: 
     # Sequence of patterns matched against refs/tags
     tags:
-      - "*" # Push events to matching any tag format, i.e. 1.0, 20.15.10
+      - "*.*.*" # Push events to matching any tag format, i.e. 1.0, 20.15.10
+
+permissions:
+  contents: write
+  discussions: write
 
 jobs:
   build:
