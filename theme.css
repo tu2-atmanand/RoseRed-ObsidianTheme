@@ -1093,3 +1093,7 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
 .kanban-plugin__item-title-wrapper {
   background: #290202;
 }
+
+.highlightr-rounded .cm-s-obsidian span.cm-highlight {
+  caret-color: currentcolor;
+}
