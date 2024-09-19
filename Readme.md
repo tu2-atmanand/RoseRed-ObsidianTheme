@@ -20,7 +20,7 @@ To manually install the theme from my release on github, follow below steps :
 
 4. Copy the two files you downloaded from the release in this `Rose Red` folder you have created.
 
-5. Go in the Setting>Appearance in your vault and select the *RoseRed* from the drop-down for Themes.
+5. Go in the Setting>Appearance in your vault and select the *Rose Red* from the drop-down for Themes.
 
 6. Enjoy!
 
