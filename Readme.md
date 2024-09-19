@@ -2,7 +2,7 @@
 
 A Red Gradient Dark theme for Obsidian, compatible with Obsidian V1.4.13 and above.
 
-![SidebarOn](SidePanelOpen.png)
+![SidebarOn](RoseRedThumbnail_SideBarOpen.png)
 
 ## Install
 
