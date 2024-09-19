@@ -32,6 +32,7 @@ jobs:
           release_name: ${{ github.ref }}
           draft: false
           prerelease: false
+          allowUpdates: true
       - name: Upload manifest.json
         id: upload-manifest
         uses: actions/upload-release-asset@v1
@@ -52,3 +53,4 @@ jobs:
           asset_path: ./theme.css
           asset_name: theme.css
           asset_content_type: text/css
+          allowUpdates: true
