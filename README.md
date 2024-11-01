@@ -16,9 +16,9 @@ To manually install the theme from my release on github, follow below steps :
 
 2. Go to the location ``.obsidian/themes`` in the root folder of your vault.
 
-3. Create a new folder named `RoseRed`.
+3. Create a new folder named `Rose Red`.
 
-4. Copy the two files you downloaded from the release in this `Rose Red` folder you have created.
+4. Copy the two files you downloaded from the release in this `Rose Red` folder you have just created.
 
 5. Go in the Setting>Appearance in your vault and select the *Rose Red* from the drop-down for Themes.
 
