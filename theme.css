@@ -4,6 +4,8 @@
   --dark2: #3d0404;
   --dark3: #5c1818;
 
+	--dark-linear-gradient: linear-gradient(45deg, rgba(36, 10, 0, 1) 0%, rgba(121, 9, 31, 1) 35%, rgba(3, 3, 3, 1) 100%);
+
   --light0: #ff8a8a;
   --light1: #fce6e4;
   --light2: #fdf8ec;
@@ -997,7 +999,7 @@ body {
 
 .kanban-plugin {
   background: rgb(36, 10, 0);
-  background: linear-gradient(45deg, rgba(36, 10, 0, 1) 0%, rgba(121, 9, 31, 1) 35%, rgba(3, 3, 3, 1) 100%);
+	background: var(--dark-linear-gradient);
 }
 
 .markdown-source-view.mod-cm6 hr {
@@ -1007,7 +1009,7 @@ body {
 .markdown-source-view.is-live-preview {
   background: #fcfcfc00;
   /* background: rgb(36, 10, 0);
-  background: linear-gradient(45deg, rgba(36, 10, 0, 1) 0%, rgba(121, 9, 31, 1) 35%, rgba(3, 3, 3, 1) 100%); */
+  background: var(--dark-linear-gradient); */
 }
 
 /* .markdown-source-view.is-live-preview {
@@ -1018,7 +1020,7 @@ body {
 .workspace-tab-container {
   /* background: #e2d3d600; */
   background: rgb(36, 10, 0);
-  background: linear-gradient(45deg, rgba(36, 10, 0, 1) 0%, rgba(121, 9, 31, 1) 35%, rgba(3, 3, 3, 1) 100%);
+	background: var(--dark-linear-gradient);
 }
 
 .workspace-tabs .workspace-leaf .view-content {
@@ -1027,7 +1029,7 @@ body {
 
 /* .workspace-leaf-content {
   background: rgb(36, 10, 0);
-  background: linear-gradient(45deg, rgba(36, 10, 0, 1) 0%, rgba(121, 9, 31, 1) 35%, rgba(3, 3, 3, 1) 100%);
+  background: var(--dark-linear-gradient);
 } */
 
 /* .is-focused .workspace-leaf.mod-active .view-header,
@@ -1071,7 +1073,7 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
 .horizontal-tab-content,
 .vertical-tab-content {
   background: rgb(36, 10, 0);
-  background: linear-gradient(45deg, rgba(36, 10, 0, 1) 0%, rgba(121, 9, 31, 1) 35%, rgba(3, 3, 3, 1) 100%);
+	background: var(--dark-linear-gradient);
 }
 
 .setting-item {
