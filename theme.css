@@ -84,11 +84,11 @@
 	--pdf-shadow: 0 0 0 1px var(--background-modifier-border);
 	--pdf-thumbnail-shadow: 0 0 0 1px var(--background-modifier-border);
 
-	/* Actual Dracula colors*/
-	--background-primary: #282a36;
-	--background-primary-alt: #44475a;
-	--background-secondary: #1a1e24;
-	--background-secondary-alt: #282a36;
+	/* Actual RoseRed colors*/
+	--background-primary: var(--dark-linear-gradient);
+	--background-primary-alt: #6e021a81;
+	--background-secondary: #560000;
+	--background-secondary-alt: #560000b7;
 	--background-red: #6c0808;
 	--text-normal: #f8f8f2;
 	--text-on-accent: #282a36;
@@ -109,7 +109,7 @@
 	--text-tag: #50fa7b;
 	--text-a: #ff79c6;
 	--text-a-hover: #ff79c0;
-	--text-mark: #f1fa8ce1;
+	--text-mark: #a1ad1dcf;
 	--interactive-accent: #50fa7b;
 	--blockquote-border: #b294bb;
 	--interactive-accent-rgb: #f1fa8c;
@@ -117,7 +117,7 @@
 	--accent-s: 94%;
 	--accent-l: 65%;
 
-	/* Dracula Code view*/
+	/* RoseRed Code view*/
 	--code-normal: #F8F8F2;
 	--code-background: #282a36;
 	--dracula-foreground: #F8F8F2;
@@ -239,7 +239,7 @@ hr {
 /* code blocks in preview */
 
 pre code {
-	padding: 5px !important;
+	padding: 15px !important;
 	color: var(--dracula-foreground);
 	line-height: normal;
 	display: block;
@@ -956,7 +956,7 @@ body {
 }
 
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
-	background-color: #1b1d26;
+	background-color: var(--background-secondary-alt);
 }
 
 .list-bullet:after {
@@ -1137,4 +1137,17 @@ thead {
 
 .modal-sidebar {
 	background-color: transparent !important;
+}
+
+.mod-header .mod-ui {
+	text-align: center;
+}
+
+.popover .hover-popover {
+	background-color: var(--background-secondary-alt) !important;
+}
+
+.popover,
+.suggestion-container {
+	background-color: var(--background-secondary-alt) !important;
 }
