@@ -6,7 +6,7 @@ A Red Gradient Dark theme for Obsidian, compatible with Obsidian V1.4.13 and abo
 
 ## Install
 
-The Theme is available from the Obsdian Theme Marketplace. Install and Enjoy !
+The Theme is available on the Obsdian Theme Marketplace. Install and Enjoy !
 
 ### Install Manually
 
